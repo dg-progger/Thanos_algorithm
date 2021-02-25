@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        int[] array = {97,13, 78, 5, 13};
+        int[] array = {97,13, 78, 5, 7};
         int[] sec_array = new int[array.length];
         thanos_sort(array, sec_array, 0, array.length - 1);
         System.out.println(Arrays.toString(array));
